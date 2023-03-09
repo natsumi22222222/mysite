@@ -8,34 +8,33 @@
   </head>
 
   <body>
-    <header>
+    <header class = "header">
       <div class = "container header-group">
-        <a href = "#main-visual">
-          <img class = "logo" src= "img 2/logo.png" alt= "ロゴ">
+        <a href = "mv">
+          <img class = "logo" src = "img 2/logo.png" alt = "ロゴ">
         </a>
         <div class="menu-box">
           <span class="list-bar"></span>
           <span class="list-bar"></span>
           <span class="list-bar"></span>
         </div>
+        <div class="nav">
+          <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+          <input id="drawer_input" class="drawer_hidden" type="checkbox">
 
-        <nav>
-          <ul class = "nav">
-            <li class ="nav-list">
-              <a class = "#Portofolio">Portofolio</a>
-            </li>
-            <li class = "nav-list">
-              <a class = "#Feature">Feature</a>
-            </li>
-            <li class="nav-list">
-              <a class= "#Profile">Profile</a>
-            </li>
-            <li class="nav-list">
-              <a class= "#Contact">Contact</a>
-            </li>
-          </ul>
+          <!-- ハンバーガーアイコン -->
+          <label for="drawer_input" class="drawer_open"><span></span></label>
+
+          <!-- メニュー -->
+          <nav class="nav_content">
+            <ul class="nav_list">
+              <li class="nav_item"><a href="">メニュー1</a></li>
+              <li class="nav_item"><a href="">メニュー2</a></li>
+              <li class="nav_item"><a href="">メニュー3</a></li>
+            </ul>
         </nav>
       </div>
+        </div>
     </header>
 
     <section id= "main-visual">
