@@ -11,15 +11,38 @@
   display:flex;
 }
 
+.container{
+  width: 1024px;
+  margin: 0 auto;
+}
+
 .header-group{
   display: flex;
   justify-content: space-between;
 }
 
 
-
 .logo {
   height: 50px;
+}
+
+.menu-box{
+  width: 40px;
+  height: 40px;
+  margin-right: 5%;
+  border:1px solid #FAFAFA;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+}
+
+.nav{
+  display: flex;
+}
+
+.nav-list{
+  display: none;
+  
 }
 
 /* ここから下がハンバーガーメニューに関するCSS */
