@@ -16,6 +16,7 @@
   margin: 0 auto;
 }
 
+
 .header-group{
   display: flex;
   justify-content: space-between;
@@ -42,17 +43,91 @@
 
 .nav-list{
   display: none;
-
+  width: 120px;
+  line-height: 70px;
+  color: #FAFAFA;
+  padding: 0 30px;
+  list-style: none;
+  font-size: 16px;
 }
 
-.main-visual{
-  background-image: url(img/mv.jpg);
+#mv{
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  color: #FAFAFA;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/mv.png);
+
 }
 
 .mv-title{
   padding-top: 200px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .mv-text{
   padding-top: 10px;
+}
+
+.heading{
+  padding-top: 90px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+}
+
+.heading-text{
+  padding-top: 40px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.sp-none{
+  display: none;
+}
+
+.production-group{
+  display: flex;
+  flex-flow: row wrap;
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.production{
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.production:nth-child(3n){
+  margin-right: 0;
+}
+
+.bg-1{
+  background-image: url(img/sketch.jpg);
+}
+
+.bg-2{
+  background-image: url(img/websuku.png);
+}
+
+.bg-3{
+   background-image: url(img/write.jpg);
+}
+
+.bg-4{
+   background-image: url(img/webcamp.png);
+}
+
+.bg-5{
+   background-image: url(../img/talk.jpg);
+}
+
+.bg-6{
+   background-image: url(img/webcamp-mother.png);
 }
