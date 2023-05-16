@@ -11,6 +11,15 @@
   display:flex;
 }
 
+.heading::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F;
+}
+
 .container{
   width: 1024px;
   margin: 0 auto;
@@ -88,6 +97,10 @@
   display: none;
 }
 
+#portfolio{
+  background-color: #ECEFF1;
+}
+
 .production-group{
   display: flex;
   flex-flow: row wrap;
@@ -125,7 +138,7 @@
 }
 
 .bg-5{
-   background-image: url(../img/talk.jpg);
+   background-image: url(img/talk.jpg);
 }
 
 .bg-6{
@@ -159,3 +172,41 @@
 .strength:last-child{
   margin-right: 0;
 }
+
+#profile{
+  background-color: #ECEFF1;
+}
+
+.profile-group{
+  display: flex;
+  padding: 30px 0 90px 0;
+}
+
+.right-content{
+  width: 50%;
+}
+
+.left-content{
+  width: 50%;
+}
+
+.my-face{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(img/my-icon.jpg);
+}
+
+.description-title:first-child{
+  margin-top: 0;
+}
+
+.description-title{
+  margin: 20px 0 5px 0;
+}
+
+.description-text{
+  font-size: 16px;
+}
+
